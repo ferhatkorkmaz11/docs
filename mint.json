@@ -2,18 +2,21 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "infrastack.ai Documentation",
   "logo": {
-    "dark": "/logo/icon.jpg",
-    "light": "/logo/icon.jpg"
+    "dark": "/logo/logo.svg",
+    "light": "/logo/logo-black.svg"
+  },
+  "topbar": {
+    "style": "gradient"
   },
   "favicon": "/favicon.svg",
   "theme": "prism",
   "colors": {
-    "primary": "#3d144c",
-    "light": "#a855f7",
-    "dark": "#3d144c",
+    "primary": "#4F46E5",
+    "light": "#4F46E5",
+    "dark": "#4F46E5",
     "anchors": {
-      "from": "#3d144c",
-      "to": "#a855f7"
+      "from": "#4F46E5",
+      "to": "#4F46E5"
     }
   },
   "topbarLinks": [
@@ -28,11 +31,6 @@
   },
   "anchors": [
     {
-      "name": "Slack Community",
-      "icon": "slack",
-      "url": "https://infrastack.ai"
-    },
-    {
       "name": "Schedule a demo",
       "icon": "calendar",
       "url": "https://cal.com/aykut-gedik-infrastack-ai/onboarding"
@@ -40,18 +38,30 @@
     {
       "name": "Blog",
       "icon": "newspaper",
-      "url": "https://infrastack.ai"
+      "url": "https://docs.infrastack.ai/blog"
     }
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "",
       "pages": ["introduction"]
     },
-
     {
-      "group": "Integrations",
-      "pages": ["integrations/nextjs", "integrations/expressjs"]
+      "group": "Quickstarts",
+      "pages": [
+        "quickstarts/nextjs",
+        "quickstarts/expressjs",
+        "quickstarts/nestjs"
+      ]
+    },
+    {
+      "group": "SDK Reference",
+      "pages": [
+        {
+          "group": "Javascript",
+          "pages": ["sdk-reference/javascript/configuration"]
+        }
+      ]
     }
   ],
   "footerSocials": {
