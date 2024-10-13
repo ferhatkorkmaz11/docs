@@ -14,14 +14,28 @@ import { JsIcon, GithubIcon } from '/snippets/custom-icons.mdx'
 - An [infrastack.ai](https://app.infrastack.ai) account to get your API key
 - A Next.js application
 
+<CardGroup cols={1}>
+  <Card title="Follow the example project on GitHub" href="https://github.com/infrastackai/infrastack/tree/main/examples/nextjs"
+  icon={<GithubIcon />}
+  />
+</CardGroup>
+
 ### Getting started
 
 <Steps>
 
   <Step title="Install the NPM package">
-  ```bash 
+  <CodeGroup>
+  ```bash npm
   npm install @infrastack/otel
   ```
+  ```bash yarn
+  yarn add @infrastack/otel
+  ```
+  ```bash pnpm
+  pnpm add @infrastack/otel
+  ```
+  </CodeGroup>
   </Step>
 
  
