@@ -49,9 +49,9 @@
     {
       "group": "Quickstarts",
       "pages": [
-        "quickstarts/nextjs",
-        "quickstarts/expressjs",
-        "quickstarts/nestjs"
+        "quickstarts/integrate-opentelemetry-for-nextjs-with-infrastack",
+        "quickstarts/integrate-opentelemetry-for-nestjs-with-infrastack",
+        "quickstarts/integrate-opentelemetry-for-expressjs-with-infrastack"
       ]
     },
     {
