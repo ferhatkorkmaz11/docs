@@ -65,8 +65,9 @@
     }
   ],
   "footerSocials": {
-    "github": "https://github.com/infrastackai",
+    "github": "https://github.com/infrastackai/infrastack",
     "linkedin": "https://www.linkedin.com/company/infrastack-ai",
-    "slack": "https://infrastack.ai"
-  }
+    "x": "https://x.com/infrastackai"
+  },
+  "seo": { "indexHiddenPages": true }
 }
