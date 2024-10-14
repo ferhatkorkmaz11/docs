@@ -47,11 +47,11 @@
       "pages": ["introduction"]
     },
     {
-      "group": "Quickstarts",
+      "group": "Documentation",
       "pages": [
-        "quickstarts/integrate-opentelemetry-for-nextjs-with-infrastack",
-        "quickstarts/integrate-opentelemetry-for-nestjs-with-infrastack",
-        "quickstarts/integrate-opentelemetry-for-expressjs-with-infrastack"
+        "documentation/integrate-opentelemetry-for-nextjs-with-infrastack",
+        "documentation/integrate-opentelemetry-for-nestjs-with-infrastack",
+        "documentation/integrate-opentelemetry-for-expressjs-with-infrastack"
       ]
     },
     {
